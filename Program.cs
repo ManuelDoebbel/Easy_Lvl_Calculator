@@ -49,39 +49,39 @@
 
         private static LvlUp LvlUps(int InputUserXP)
         {
-            if (InputUserXP >= 11000)
+            if (InputUserXP >= (int)LvlUp.Level9)
             {
                 return LvlUp.Level9;
             }
-            else if (InputUserXP >= 6000)
+            else if (InputUserXP >= (int)LvlUp.Level8)
             {
                 return LvlUp.Level8;
             }
-            else if (InputUserXP >= 3000)
+            else if (InputUserXP >= (int)LvlUp.Level7)
             {
                 return LvlUp.Level7;
             }
-            else if (InputUserXP >= 1400)
+            else if (InputUserXP >= (int)LvlUp.Level6)
             {
                 return LvlUp.Level6;
             }
-            else if (InputUserXP >= 600)
+            else if (InputUserXP >= (int)LvlUp.Level5)
             {
                 return LvlUp.Level5;
             }
-            else if (InputUserXP >= 250)
+            else if (InputUserXP >= (int)LvlUp.Level4)
             {
                 return LvlUp.Level4;
             }
-            else if (InputUserXP >= 100)
+            else if (InputUserXP >= (int)LvlUp.Level3)
             {
                 return LvlUp.Level3;
             }
-            else if (InputUserXP >= 50)
+            else if (InputUserXP >= (int)LvlUp.Level2)
             {
                 return LvlUp.Level2;
             }
-            else if (InputUserXP >= 20)
+            else if (InputUserXP >= (int)LvlUp.Level1)
             {
                 return LvlUp.Level1;
             }
